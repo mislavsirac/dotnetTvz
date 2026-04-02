@@ -1,5 +1,8 @@
-using RestoManager.Model;
-using RestoManager.Model.Enums;
+using RestoManager.Model.Inventory;
+using RestoManager.Model.Menu;
+using RestoManager.Model.Orders;
+using RestoManager.Model.Restaurants;
+using RestoManager.Model.Staff;
 
 namespace RestoManager.Db;
 

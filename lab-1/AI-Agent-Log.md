@@ -68,3 +68,9 @@ Implemented the initial Lab 1 object model and demonstration endpoints for the R
 - Renamed the aggregate LINQ response model to `RestaurantStatisticsDto`
 - Split the statistics queries into separate descriptive methods to reduce cognitive complexity in `Program.cs`
 - Adjusted seeded meal prices so the premium-meal statistics query returns meaningful data
+- Moved the `RestoManager.Model` class library into the repository so Git can track it
+- Updated the solution and API project references to point to the in-repo model project
+- Removed unused leftover folders from earlier refactors to clean up the project structure
+- Moved the API project into a dedicated `RestoManager.Api` subfolder so both `.csproj` files now live inside project folders
+- Cleaned the repository root so it contains only the solution file and shared root-level folders
+- Reorganized the model project by entity/domain folders so related enums now live next to their corresponding models

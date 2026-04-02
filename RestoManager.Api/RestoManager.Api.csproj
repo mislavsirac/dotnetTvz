@@ -8,16 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RestoManager.Model\RestoManager.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include=".projectDefinition\" />
+    <Folder Include="Db\" />
   </ItemGroup>
 
 </Project>

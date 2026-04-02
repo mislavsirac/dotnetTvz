@@ -1,4 +1,4 @@
-using RestoManager.Model.Enums;
+using RestoManager.Model.Inventory;
 
 namespace RestoManager.Db.Dtos;
 

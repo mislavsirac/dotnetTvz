@@ -1,7 +1,8 @@
 using RestoManager.Db;
 using RestoManager.Db.Dtos;
-using RestoManager.Model;
-using RestoManager.Model.Enums;
+using RestoManager.Model.Inventory;
+using RestoManager.Model.Orders;
+using RestoManager.Model.Restaurants;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);

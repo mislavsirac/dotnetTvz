@@ -1,6 +1,0 @@
-@Sustav_za_zaprimanje_i_prikaz_narudžbi_u_restoranu_HostAddress = http://localhost:5093
-
-GET {{Sustav_za_zaprimanje_i_prikaz_narudžbi_u_restoranu_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

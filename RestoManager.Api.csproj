@@ -4,11 +4,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Sustav_za_zaprimanje_i_prikaz_narudžbi_u_restoranu</RootNamespace>
+    <RootNamespace>RestoManager</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestoManager.Model\RestoManager.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
